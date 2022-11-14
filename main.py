@@ -62,7 +62,6 @@ print(cleanSolutions)
 
 for i in range(1,21):
     button = driver.find_element(By.XPATH, f"//form[@id='responseform'][1]/div[1]/div[{i}]/div[2]/div[1]/span[1]/p[2]/span[1]/span[2]/input[1]").send_keys(str(cleanSolutions[i-1]))
-    # time.sleep(delay)
 
 driver.find_element(By.XPATH, f"//input[@id='mod_quiz-next-nav']").click()
 driver.find_element(By.XPATH, f"//section[@id='region-main'][1]/div[2]/div[5]/div[1]/div[1]/form[1]/button[1]").click()
