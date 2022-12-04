@@ -1,5 +1,5 @@
 # Math-Quiz
-Web scraper to finish my moodle math quiz in 12 seconds.
+Web scraper to finish my moodle math quiz in 9 seconds.
 
 ### Demonstration
 
